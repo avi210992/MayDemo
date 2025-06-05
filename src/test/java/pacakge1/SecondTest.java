@@ -8,5 +8,6 @@ public class SecondTest {
 	
 	{
 		System.out.println("In the Second class func1");
+		System.out.println("In the Second class func1 - post commit");
 	}
 }
