@@ -10,6 +10,6 @@ public class FirstTest {
 	
 	{
 		System.out.println("In the First class func1");
-		System.out.println("the test suite param from Jenkins is -->"+System.getProperty( "TEST_SUITE"));
+		System.out.println("the test suite param from Jenkins is -->"+System.getProperty("suite"));
 	}
 }

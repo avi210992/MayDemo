@@ -9,7 +9,7 @@ public class SecondTest {
 	{
 		System.out.println("In the Second class func1");
 		System.out.println("In the Second class func1 - post commit");
-		System.out.println("the Environment param from Jenkins is -->"+System.getProperty("ENVIRONMENT"));
+		System.out.println("the Environment param from Jenkins is -->"+System.getProperty("env"));
 		
 	}
 }
