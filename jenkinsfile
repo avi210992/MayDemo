@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout Code') {
+            steps {
+                checkout scm  // ✅ pulls code from the repo that triggered this build
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'mvn clean install'
+            }
+        }
+    }
+}
