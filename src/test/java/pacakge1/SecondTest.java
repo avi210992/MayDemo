@@ -12,4 +12,14 @@ public class SecondTest {
 		System.out.println("the Environment param from Jenkins is -->"+System.getProperty("env"));
 		
 	}
+
+	@Test
+	public void func2()
+
+	{
+		System.out.println("In the Second class func2");
+		System.out.println("In the Second class func2 - post commit");
+		System.out.println("the Environment param from Jenkins is -->"+System.getProperty("suite"));
+
+	}
 }

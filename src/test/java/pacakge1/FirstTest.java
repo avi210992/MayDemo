@@ -12,4 +12,9 @@ public class FirstTest {
 		System.out.println("In the First class func1");
 		System.out.println("the test suite param from Jenkins is -->"+System.getProperty("suite"));
 	}
+
+	//add a method for basic addition
+	public int add(int a, int b) {
+		return a + b;
+	}
 }
